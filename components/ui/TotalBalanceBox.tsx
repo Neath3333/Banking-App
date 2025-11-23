@@ -26,7 +26,7 @@ export const TotalBalanceBox = ({
           <div className='flex items-center gap-3 mb-6'>
             <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse shadow-lg shadow-green-400/50"></div>
             <h2 className='text-lg md:text-xl font-semibold text-secondary uppercase tracking-wider'>
-              Bank Accounts Overview
+              Bank Accounts
             </h2>
           </div>
 
@@ -58,9 +58,7 @@ export const TotalBalanceBox = ({
                   </div>
                   <AnimatedCounter amount={totalCurrentBalance || 0} />
                 </div>
-                <div className="text-green-400 text-sm font-semibold bg-green-400/20 px-3 py-1 rounded-full">
-                  +15.3% this month
-                </div>
+               
               </div>
             </div>
           </div>
