@@ -30,11 +30,24 @@ const SideBar = ({user }: SiderbarProps) => {
                 className={cn("sidebar-link",{"bg-bank-gradient" :isActive})} 
                 key={item.label}
                 href={item.route}>
+                    <div className='relative size-6'>
+                    <Image
+                     src={item.imgURL}
+                     alt={item.label}
+                     fill
+                     className={cn({'brightness-[3] invert-0': isActive
+                    })}
+                   />
+                    </div>
                     {item.label}
                 </Link>         
             )
-            },)}
+            })}
+            USER
+ 
+            
     </nav>
+    FOOTER
    </section>
   )
 }
