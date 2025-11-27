@@ -1,6 +1,6 @@
 import SideBar from "@/components/SideBar";
 import Image from "next/image";
-import MobileNav from "@/components/MobileNavbar"
+import MobileNav from "@/components/MobileNavbar";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -13,7 +13,7 @@ export default function RootLayout({
         <div className="flex size-full flex-col">
           <div className="root-layout">
             <Image 
-            src="/icon/logo.png"
+            src="/icons/logo.png"
             alt="logo"
             width={30}
             height={30}/>
